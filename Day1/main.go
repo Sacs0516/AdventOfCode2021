@@ -12,7 +12,7 @@ import (
 func CSVToArray ( ) []int{
 	array := make([]int, 0)
 
-	file, err := os.Open("input1.csv")
+	file, err := os.Open("input.csv")
 
 	if err != nil {
 		log.Fatal(err)
